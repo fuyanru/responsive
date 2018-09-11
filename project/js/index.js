@@ -10,7 +10,7 @@ $(function(){
 			$('.main').eq(0).css('padding-top','0px');
 		}
 		if(0<=winHigh&&winHigh<=$('.header').height()){
-			console.log(winHigh)
+			
 	 		$('.nav .left ul').children().eq(1).css('border-bottom','1px dashed #f85d5d').siblings().css('border-bottom','1px dashed transparent')
 	        nav('.nav .left ul li',1)	
 		}
